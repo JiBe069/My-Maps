@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="Stylesheet" type="text/css" href="style.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content="bourdo_j, Bourdon Jonathan" />
+        <meta name="description" content= "My_maps" />
+        <meta name="keywords" content="my_maps" />
+        <script type="text/javascript" 
+        src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>My Maps</title>
+    </head>
+    <body onload="initialisation();">
+        <h1><a href="#">My_Maps</a></h1>
+        <div id="Menu"><!--Début de ma div header -->
+            <ul>
+                <li>
+                    <a class="h2" href="#" id="accueil" onclick="accueil()">ACCUEIL</a>  
+                </li> 
+            </ul>   
+
+            <ul>
+                <li >
+                    <a class="h2" href="#" id="itineraires" onclick="itineraires()">ITINERAIRES</a>   
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a class="h2" href="#" id="parcour" onclick="parcour()">PARCOUR</a>
+                </li>
+            </ul> 
+
+            <ul>
+                <li>
+                    <a class="h2" href="#" id="recherche" onclick="recherche()">RECHERCHE</a>
+                </li>
+            </ul>
+        </div><!-- Fin de ma div header-->
+        <div id="map" > 
+        </div>
+
+        <div style="margin:auto;">
+            <center>
+                <input type="text" id="start" title="start" placeholder="Votre adresse de départ"  /><br/>
+                <input type="text" id="end" title="end" placeholder="Votre adresse d'arriver"  /><br/>
+                <input type="button" onclick="codeRoute();" id="route" value="Demarrer" />
+            </center>
+        </div>
+    </body>
+</html>

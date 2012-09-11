@@ -1,0 +1,174 @@
+/* 
+    Document   : style.css
+    Created on : 10 sept. 2012, 12:07:32
+    Author     : bourdo_j
+    Description: Projet - my_maps
+        
+*/
+
+@font-face {
+    font-family: 'police1';
+    src: url('./police/Economica/Economica-Regular.ttf');
+}
+
+html{
+    height: 100%;
+}
+
+body { 
+    border:0px solid black;
+    font-family: 'police1';
+    width: 99%;
+    height: 94%;
+    background-color: #8CC6D7; 
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+h1 {
+    border: 0px solid black;
+    width: 140px;
+    box-shadow: 0px 0px 10px 0px black;
+    font-family: 'police1';
+    margin-left: 120px;
+    margin-top: 45px;
+    color: white;
+    font-size: 35px;
+}
+
+a {
+    border: 0px solid red;
+    font: inherit;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.h2:hover {
+    border: 0px solid white;
+    width: 200px;
+    font: inherit;
+    text-decoration: none;
+    font-size: 40px;
+    color: #000000;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+/*
+* Début de mon Menu 
+*/
+#Menu{
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px 0px black;
+    height: auto;
+    width: 260px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 150px;
+    float: left;
+}
+
+ul {
+    border: 0px solid red;
+    font-family: 'police1';
+    color: white;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+ul ul {
+    border: 0px solid red;
+    font-family: 'police1';
+    color: white;
+}
+
+li {
+    border: 0px solid red;
+    list-style-type: none;
+    color: white;
+    font-size: 40px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+}
+
+li:hover {
+    border: 0px solid red;
+    list-style-type: none;
+    color: #000000;
+    font-size: 40px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#un {
+    border: 0px solid red;
+    display: none;
+}
+
+#deux{
+    border: 0px solid red;
+    display: none;
+}
+
+#trois{
+    border: 0px solid red;
+    display: none;
+}
+
+#quatre {
+    border: 0px solid red;
+    display: none;
+}
+
+#accueil{
+    margin-left:40px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#itineraires{
+    margin-left:40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#parcour{
+    margin-left:40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#recherche{
+    margin-left:40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*
+*Fin de mon Menu 
+*/
+
+#map{
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px 0px black;
+    float:left;
+    margin-left: -100px;
+    margin-top: 50px;
+    width:940px;
+    height:265px;
+}
+
+input{
+   margin-top: 10px;
+   height:30px;
+   width:200px;
+   margin-bottom: 5px;
+   
+}
